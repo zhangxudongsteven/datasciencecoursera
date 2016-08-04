@@ -1,2 +1,2 @@
-# test-repo
+# datasciencecoursera
 it's a test project, used to test the connection between client and server.
