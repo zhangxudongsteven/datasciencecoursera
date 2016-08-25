@@ -1,2 +1,2 @@
 # datasciencecoursera
-it's a test project, used to test the connection between client and server.
+it's a r project, used to challenge the data science work on Coursera. 
