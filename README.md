@@ -7,4 +7,4 @@ this repository contain some files which belone to this project. The are listed 
 * CodeBook.md - the code book for this process and output dataset.
 * final_dataset.csv - the final output dataset.
 
-### Aug 26, 2016
+###  - Aug 26, 2016
