@@ -88,9 +88,9 @@ transform <- function(df=dataset_merge()) {
     gather(variable, var_value, -(subject:activityname)) %>% 
     group_by(subject, activityname, variable) %>% 
     summarise(mean=mean(var_value))
-  vars <- res$variable
-  means <- res[grepl("_mean$", vars),]
-  stds <- res[grepl("_std$", vars),]
+  vars <- df$variable
+  means <- df[grepl("_mean$", vars),]
+  stds <- df[grepl("_std$", vars),]
   means$meanAvg <- means$mean
   final <- select(means, -mean)
   final$stdAvg <- stds$mean
